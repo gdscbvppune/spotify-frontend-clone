@@ -1,0 +1,21 @@
+label {
+    font-weight: 700;
+    font-size: 11px;
+    color: #fff;
+    line-height: 32px;
+}
+
+input{
+    width: 28vw;
+    background: #343434;
+    border-radius: 4px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 3vh;
+    padding-top: 6px;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 6px;
+    padding-left: 12px;
+}
