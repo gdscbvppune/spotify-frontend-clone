@@ -1,0 +1,25 @@
+.song-thumbnail-item{
+    width: 12vw;
+    height: 12vw;
+    background: #2d2d2d;
+    padding-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.song-thumbnail-item-image{
+    width: 9vw;
+    height: 9vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.song-thumbnail-item-title{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}

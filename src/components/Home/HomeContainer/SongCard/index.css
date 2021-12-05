@@ -1,0 +1,30 @@
+.song-card{
+    width: 28vw;
+    display: flex;
+    cursor: pointer;
+    background: #262626;
+    border-radius: 4px;
+}
+
+.song-card-thumbnail{
+    border-radius: 4px;
+    width: 8vw;
+}
+
+.song-card-holder{
+    padding-left: 24px;
+    padding-top: 32px;
+}
+
+.song-card-title{
+    line-height: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.song-card-artist{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+}

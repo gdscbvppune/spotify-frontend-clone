@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import LoginInput from "./LoginInput";
 
-import loginUtil from "../../utils/auth";
+import { loginUtil } from "../../utils/auth";
 
 class Login extends React.Component {
 

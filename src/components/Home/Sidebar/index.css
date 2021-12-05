@@ -1,0 +1,75 @@
+.sidebar{
+    width: 18vw;
+    height: 90vh;
+    background: #292929;
+}
+
+.sidebar-upper{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #434343;
+}
+
+.sidebar-item{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    transition: 300ms;
+    cursor: pointer;
+    padding-bottom: 15px;
+    background: #282828;
+    color: #fff;
+    font-weight: 600;
+}
+
+.sidebar-playlists{
+    background: #2D2D2D;
+    height: 34vh;
+    overflow-y: scroll;
+}
+
+.sidebar-playlists::-webkit-scrollbar{
+    width: 4px;
+}
+
+.sidebar-playlists::-webkit-scrollbar-track{
+    background: #323232;
+}
+
+.sidebar-playlists::-webkit-scrollbar-thumb{
+    background: #454545;
+    border-radius: 5px;
+}
+
+.playlist-item{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    cursor: pointer;
+    padding-bottom: 12px;
+    font-size: 12px;
+    background: #292929;
+    color: #fff;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+.playlist-item:hover{
+    background: #353535;
+    transition: 300ms;
+}
+
+.sidebar-item-active{
+    background: #353535;
+}
+
+.sidebar-item:hover{
+    transition: 300ms;
+    background: #353535;
+}
+
+.sidebar-album-art .song-art{
+    width: 18vw;
+    height: 18vw;
+    margin-top: 4px;
+}

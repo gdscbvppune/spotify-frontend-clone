@@ -1,0 +1,43 @@
+.home-container{
+    display: inline-block;
+}
+
+.home-container-greeting{
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    top: 5%;
+    left: 15%;
+}
+
+.home-container-songs{
+    display: block;
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+
+.home-container-songs-row{
+    display: inline-flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+.home-container-recently-played-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+
+.home-container-recently-played-songs-holder{
+    display: inline-flex;
+    position: relative;
+    width: 60vw;
+    justify-content: space-between;
+    top: 20%;
+    left: 15%;
+}
