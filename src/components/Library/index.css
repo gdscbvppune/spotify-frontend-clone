@@ -1,0 +1,22 @@
+.library-screen{
+    width: 80vw;
+    height: 90vh;
+}
+
+.library-screen-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    left: 5%;
+    top: 5%;
+    position: relative;
+}
+
+.library-screen-items{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    height: 70vh;
+    overflow-y: scroll;
+    width: 80vw;
+}

@@ -1,0 +1,40 @@
+.song-item-tile{
+    background: #262626;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    display: inline-flex;
+    width: 70vw;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.play-icon-holder{
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.song-item-tile-thumbnail{
+    position: relative;
+    border-radius: 4px;
+}
+
+.song-item-tile-title{
+    color: #fff;
+    font-weight: 700;
+    line-height: 0;
+    font-size: 18px;
+}
+
+.song-item-tile-artist{
+    color: #fff;
+    font-weight: 300;
+    line-height: 0;
+    font-size: 18px;
+}

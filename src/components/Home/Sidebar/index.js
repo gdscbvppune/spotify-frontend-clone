@@ -1,9 +1,9 @@
 import "./index.css";
 
 function SideBarItem(props){
-    let {title} = {...props};
+    let {title, handleSelect} = {...props};
     return (
-        <div className={title === "Home" ? "sidebar-item sidebar-item-active" : "sidebar-item"}>
+        <div onClick={() => handleSelect(title === "Home" ? "home" : "library")} className={title === "Home" ? "sidebar-item sidebar-item-active" : "sidebar-item"}>
             {title}
         </div>
     );
@@ -19,13 +19,19 @@ function PlaylistItem(props){
 }
 
 function SideBar(props){
-    let { music } = {...props};
+    let { music, handleRouteChange } = {...props};
+
+    const openSearchScreen = (route) => {
+        console.log("Clicked to navigate to route", route);
+        handleRouteChange(route);
+    }
+
     return (
         <div className="sidebar">
             <div className="sidebar-upper">
-                <SideBarItem title="Home" key="home" />
-                <SideBarItem title="Search" key="search" />
-                <SideBarItem title="Your Library" key="library" />
+                <SideBarItem handleSelect={openSearchScreen} title="Home" key="home" />
+                <SideBarItem handleSelect={openSearchScreen} title="Search" key="search" />
+                <SideBarItem handleSelect={openSearchScreen} title="Your Library" key="library" />
             </div>
             <div className="sidebar-playlists">
                 <PlaylistItem title="Wham" key="Wham" />
