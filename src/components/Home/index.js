@@ -5,8 +5,6 @@ import Dock from "./Dock";
 import SideBar from "./Sidebar";
 import HomeContainer from "./HomeContainer";
 
-import Library from "../Library";
-
 import "./index.css";
 
 class Home extends React.Component {
@@ -36,7 +34,7 @@ class Home extends React.Component {
             <div className="home">
                 <div className="player-screen">
                     <SideBar handleRouteChange={this.handleRouteChange} music={this.state.history[0]} />
-                    {this.state.route === 'home' ? <HomeContainer /> : <Library />}
+                    <HomeContainer />
                 </div>
                 <div className="player-dock">
                     <Dock music={this.state.history[0]} />

@@ -14,10 +14,6 @@ class Library extends React.Component {
     }
 
     async componentDidMount(){
-        let allSongsAPIResponse = await getAllSongs();
-        this.setState({
-            songs: allSongsAPIResponse.songs
-        });
     }
 
     render(){
@@ -25,9 +21,6 @@ class Library extends React.Component {
             <div className="library-screen">
                 <div className="library-screen-title">Your library</div>
                 <div className="library-screen-items">
-                    {this.state.songs.map((item) => {
-                        return <SongItemTile {...item} />;
-                    })}
                 </div>
             </div>
         );
